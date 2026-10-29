@@ -48,7 +48,7 @@ class MainActivity : ComponentActivity() {
     }
 
     @Composable
-    fun PantallaTorneo(mofier: Modifier = Modifier, modifier: Modifier) {
+    fun PantallaTorneo(modifier: Modifier = Modifier) {
         var nombre by rememberSaveable {
             mutableStateOf(value = "")
         }
